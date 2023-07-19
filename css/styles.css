@@ -1,0 +1,75 @@
+/* FOR MY CUSTOM STYLES */
+
+html,
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 70px !important;
+}
+
+#hero-carousel {
+  margin-top: 80px;
+}
+
+#contact {
+  background-color: rgba(39, 38, 38, 0.829);
+}
+.c-item {
+  height: 550px;
+}
+
+.c-image {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.card-img-top {
+  height: 250px !important;
+  object-fit: cover;
+}
+
+#our-works {
+  background: rgba(15, 100, 153, 0.123) !important;
+}
+
+#about {
+  background: rgba(18, 110, 167, 0.432) !important;
+}
+/* MEDIA QUERY */
+
+@media (max-width: 767px) {
+  /* CSS styles for small screens */
+  /* Place your styles here */
+
+  .logo-img {
+    height: 33px !important;
+    width: 33px !important;
+  }
+  .cap-title {
+    font-size: 30px !important;
+  }
+
+  .cap-desc {
+    font-size: 15px !important;
+  }
+
+  .navbar-brand {
+    font-size: 16px !important;
+  }
+  .about-desc {
+    font-size: 12px !important;
+  }
+
+  .about-title {
+    font-size: 18px !important;
+    text-align: center !important;
+  }
+  .navbar {
+    height: 70px !important;
+  }
+}
